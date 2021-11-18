@@ -1,27 +1,40 @@
-# XRInteractionToolkitTemplate
+# A Victorian Dream: VR Labyrinth
 
 ### Project description: 
-This project serves as sample project for spatial audio. 
-Explore sound in its basics in virtual reality (VR).
+Man geht durch ein Tor und betritt einen viktorianischen Stadtteil des alten Londons.
+Es herrscht eine winterliche, mysteriöse Grundstimmung. Es ist Nacht.
+Der Player hört ausgelassene Stimmen in einem Haus. Vor dem Haus liegt ein
+Haufen Schneebälle. Er nimmt solch einen Ball und wirft ihn gegen das markierte,
+geschlossene Fenster. Danach fällt ein geschlossenes Kuvier durch den Postschlitz
+des Hauses. Der Player sammelt den mysteriösen Brief ein und nimmt ihn mit.
+In einer anderen Gasse befindet sich ein knallroter Briefkasten. Wirft der Spieler
+diesen mysteriösen Brief in den Kasten, erscheint auf dem Briefkasten ein Symbol,
+dass der Spieler nun an einer Hauswand suchen muss. Zur Hilfe ertönt ab diesem
+Moment melancholische Klaviermusik bei dem gesuchten Ort. Klopft der Spieler
+nun an der richtigen Tür, öffnet sie sich und der Spieler kann das Labyrinth verlassen.
+
+### Milestones
+# Labyrinth eingebaut und Movement fertig: 18.11.2021
+# Alle Rätsel implementiert und funktionieren 23.12.2021
+# Sounds und grafische Umsetzung fertig eingebaut: 20.01.2021
 
 ### Development platform: 
-OS: Windows 10, Game Engine: Unity 2020.3.18f1, Visual Studio 2019, XR Interaction Toolkit
-
-## Software/Hardware Requirements: 
-Oculus hardware requirements https://support.oculus.com/248749509016567/
-You need a VR headset in this case an Oculus Rift/Quest/Quest2
-
-When downlaoded, you have compile time errors in the project. To solve them install the XR interaction toolkit package via the Package Manager. (!Enable in Advanced Settings Preview Packages).
+Windows 10, Unity 2020.3.18f1, Visual Studio 2019
 
 ### Target platform: 
-Oculus Rift/S; Quest/2
+Virtual Reality Oculus Quest II
 
-### Visuals: 
-Screenshots (concept and experience), Video
+### Necessary setup/execution steps: 
+Installation process, e.g. step by step instructions that I can run the project after cloning it
 
 ### Third party material: 
-For testing without a headset, use the XR Device Simulator (included in the xr interaction toolkit package):  https://www.youtube.com/watch?v=d4bTpkvBwrs
+(if used Fonts, Sounds, Music, Graphics, Materials, Code etc.)
 
-### Limitations/Problems: 
+### Project state: 
+0%
 
-Copyright by smeerws :)
+### Limitations: 
+
+### Lessons Learned: 
+
+Copyright by pkikl 2021
