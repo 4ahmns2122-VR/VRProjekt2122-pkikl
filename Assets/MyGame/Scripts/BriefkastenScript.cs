@@ -5,6 +5,10 @@ using UnityEngine;
 public class BriefkastenScript : MonoBehaviour
 {
     public GameObject letter;
+    public GameObject door;
+
+
+    public bool isLetterThrownIn = false;
 
     // Start is called before the first frame update
     void Start()
@@ -15,11 +19,19 @@ public class BriefkastenScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(isLetterThrownIn == true)
+        {
+            door.transform.position = new Vector3(20f, door.transform.position.y, door.transform.position.z);
+            isLetterThrownIn = false;
+        }
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        letter.SetActive(false);
+        if (other.gameObject.CompareTag("Letter"))
+        {
+            letter.SetActive(false);
+            isLetterThrownIn = true;
+        }
     }
 }
