@@ -21,7 +21,7 @@ public class BriefkastenScript : MonoBehaviour
     {
         if(isLetterThrownIn == true)
         {
-            door.transform.position = new Vector3(20f, door.transform.position.y, door.transform.position.z);
+            door.transform.position = new Vector3(door.transform.position.x + 20f, door.transform.position.y, door.transform.position.z);
             isLetterThrownIn = false;
         }
     }
@@ -30,6 +30,7 @@ public class BriefkastenScript : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Letter"))
         {
+            // print("1");
             letter.SetActive(false);
             isLetterThrownIn = true;
         }
