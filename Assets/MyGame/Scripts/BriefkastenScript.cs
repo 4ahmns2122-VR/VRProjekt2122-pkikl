@@ -5,7 +5,8 @@ using UnityEngine;
 public class BriefkastenScript : MonoBehaviour
 {
     public GameObject letter;
-    public GameObject door;
+    public GameObject doorNew;
+    public GameObject doorOld;
 
 
     public bool isLetterThrownIn = false;
@@ -21,7 +22,8 @@ public class BriefkastenScript : MonoBehaviour
     {
         if(isLetterThrownIn == true)
         {
-            door.transform.position = new Vector3(door.transform.position.x + 20f, door.transform.position.y, door.transform.position.z);
+            doorOld.SetActive(false);
+            doorNew.SetActive(true);
             isLetterThrownIn = false;
         }
     }

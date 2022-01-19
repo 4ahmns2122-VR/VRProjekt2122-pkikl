@@ -7,6 +7,8 @@ public class SchneeballTrigger : MonoBehaviour
     public GameObject snowball;
     public GameObject letter;
 
+    public AudioSource targetSound;
+
     public bool isTargetHit = false;
 
     // Start is called before the first frame update
@@ -31,6 +33,7 @@ public class SchneeballTrigger : MonoBehaviour
         {
             snowball.SetActive(false);
             isTargetHit = true;
+            targetSound.Play();
         }
     }
 }
