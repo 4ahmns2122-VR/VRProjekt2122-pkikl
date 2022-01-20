@@ -1,13 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class SchneeballTrigger : MonoBehaviour
 {
-    public GameObject snowball;
     public GameObject letter;
 
     public AudioSource targetSound;
+
+    public TMP_Text missionText;
 
     public bool isTargetHit = false;
 
@@ -31,9 +33,10 @@ public class SchneeballTrigger : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Snowball"))
         {
-            snowball.SetActive(false);
-            isTargetHit = true;
             targetSound.Play();
+            Destroy(other.transform.gameObject);
+            isTargetHit = true;
+            missionText.text = "Nimm den Brief und finde den Briefkasten";
         }
     }
 }

@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class BriefkastenScript : MonoBehaviour
 {
     public GameObject letter;
     public GameObject doorNew;
     public GameObject doorOld;
+
+    public TMP_Text newMission;
 
 
     public bool isLetterThrownIn = false;
@@ -35,6 +38,7 @@ public class BriefkastenScript : MonoBehaviour
             // print("1");
             letter.SetActive(false);
             isLetterThrownIn = true;
+            newMission.text = "Gehe zum Tor";
         }
     }
 }
