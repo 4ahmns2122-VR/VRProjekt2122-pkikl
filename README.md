@@ -22,7 +22,7 @@ nun an der richtigen Tür, öffnet sie sich und der Spieler kann das Labyrinth v
 Windows 10, Unity 2020.3.18f1, Visual Studio 2019
 
 ### Target platform: 
-Virtual Reality Oculus Quest II
+Virtual Reality Oculus Rift
 
 ### Necessary setup/execution steps: 
 Installation process, e.g. step by step instructions that I can run the project after cloning it
