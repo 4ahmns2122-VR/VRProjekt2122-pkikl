@@ -37,8 +37,12 @@ All 3d Models are selfmade.
 Used Font: Bebas Neue
 Piano Music by Skili
 
+Sounds from:
+www.freesound.org
+Cymatics LIFE Sound Pack
+
 ### Project state: 
-0%
+95%
 
 ### Limitations: 
 
@@ -49,5 +53,6 @@ Piano Music by Skili
 
 
 ### Lessons Learned: 
+How to create a VR Project. Work with Grab Interactibles and Collisions. Learned to use Post Processing.
 
 Copyright by pkikl 2021
