@@ -22,8 +22,10 @@ public class GateOpener : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
+        Debug.Log("1");
         if (other.gameObject == player)
         {
+            Debug.Log("2");
             doorOpenAnim.SetTrigger("DoorOpen");
             angelsSing.Play();
 

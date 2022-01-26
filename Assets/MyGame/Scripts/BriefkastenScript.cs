@@ -31,9 +31,11 @@ public class BriefkastenScript : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+   
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if (other.gameObject.CompareTag("Letter"))
+        if (collision.gameObject.CompareTag("Letter"))
         {
             // print("1");
             letter.SetActive(false);

@@ -29,12 +29,14 @@ public class SchneeballTrigger : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter(Collider other)
+   
+
+    private void OnCollisionEnter(Collision collision)
     {
-        if(other.gameObject.CompareTag("Snowball"))
+        if (collision.gameObject.CompareTag("Snowball"))
         {
             targetSound.Play();
-            Destroy(other.transform.gameObject);
+            Destroy(collision.transform.gameObject);
             isTargetHit = true;
             missionText.text = "Nimm den Brief und finde den Briefkasten";
         }
