@@ -22,8 +22,7 @@ Windows 10, Unity 2020.3.18f1, Visual Studio 2019
 Virtual Reality Oculus Rift
 
 ### Necessary setup/execution steps: 
-Installation process, e.g. step by step instructions that I can run the project after cloning it
-
+Oculus Rift Virtual Reality Headset is mandatory
 ### Third party material: 
 
 # Packages:
