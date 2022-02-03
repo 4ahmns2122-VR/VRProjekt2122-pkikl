@@ -11,6 +11,7 @@ public class BriefkastenScript : MonoBehaviour
 
     public TMP_Text newMission;
 
+    public AudioSource confirmSound;
 
     public bool isLetterThrownIn = false;
 
@@ -39,6 +40,7 @@ public class BriefkastenScript : MonoBehaviour
         {
             // print("1");
             letter.SetActive(false);
+            confirmSound.Play();
             isLetterThrownIn = true;
             newMission.text = "Gehe zum Tor";
         }
